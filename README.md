@@ -6,4 +6,7 @@ It is very simple: created with basic HTML, CSS and Javscript instead of React a
 project like this is unecessary. 
 I have set-up a simple testing suite as well to ensure it functions as it should. 
 Tech-stack:
-
+- HTML
+- CSS
+- Javascript
+- 
