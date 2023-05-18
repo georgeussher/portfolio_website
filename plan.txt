@@ -1,0 +1,21 @@
+MVP:
+A deployed webiste that presents and intro about me, my projects
+and my contact info. Each section can be accessed through its own 
+button in the tab section that takes the user to the corresponding part 
+of the site.
+Each project has a link that takes the user to the public github repo.
+Supplemental images will also be provided in the my work section.
+
+HTML:
+contains the text that is presented on the webpage. Placeholder text 
+used initally.
+
+CSS:
+use flexbox to style the navbar in order to ge the two-tone appearence set out in the wireframe.
+
+Javascript:
+so far no use for javascript but would be good to find a way to include it to 
+show my javascript skills (parallax?)
+
+API: 
+API to store contact information that is served when the contact me button is clicked
