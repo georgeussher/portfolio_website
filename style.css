@@ -1,5 +1,6 @@
 :root{
     --background: #D9D9D9;
+    font-family: 'Courier Prime', monospace;
 }
 html{
     scroll-behavior: smooth;
@@ -7,7 +8,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier Prime', monospace;
 }
 nav{
     /* use flexbox to create another div in the navbar and give it another color */
@@ -64,19 +65,28 @@ h1{
     flex-direction: column;
     align-items: center;
 }
+#profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 62px;
+    box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.25);
+}
 #name{
     margin: 0;
-    padding: 0;
-    width: 200px;
+    padding:20px;
+    /* padding-top: 200px; */
+    font-size: 50px;
 }
 #role{
     margin: 0;
-    padding: 0;
-    width: 300px;
+    padding: 20px;
+    font-size: 22px;
 }
 #description{
     margin: 0;
-    padding: 0;
-    width: 500px;
+    padding: 20px;
+    width: 550px;
     text-align: center;
-}
+    font-size: 18px;
+}   
