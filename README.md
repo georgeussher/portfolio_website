@@ -13,4 +13,3 @@ Tech-stack:
 - Javascript
 - deploy with vercel/netlify
 
-can i run tests with vanilla js?
