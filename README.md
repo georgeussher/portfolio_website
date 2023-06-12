@@ -6,7 +6,7 @@ This is the repository for my portfolio website build. I have created this proje
 It is very simple: created with basic HTML, CSS and Javscript instead of React as I believe using a javascript framework for a simple
 project like this is unecessary. 
  
-Tech-stack:
+🖥️Tech-stack:
 - HTML
 - CSS
 - Javascript
