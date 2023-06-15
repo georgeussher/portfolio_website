@@ -10,5 +10,5 @@ project like this is unecessary.
 - HTML
 - CSS
 - Javascript
-- deploy with vercel/netlify
+- vVercel/Netlify
 
