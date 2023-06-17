@@ -10,5 +10,5 @@ project like this is unecessary.
 - HTML
 - CSS
 - Javascript
-- vVercel/Netlify
+- Vercel/Netlify
 
