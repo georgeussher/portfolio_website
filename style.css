@@ -15,7 +15,7 @@ body {
 
 nav {
     /* use flexbox to create another div in the navbar and give it another color */
-    width: 100%;
+    width: 100vw;
     background: var(--background);
     overflow: hidden;
     position: fixed;
@@ -45,21 +45,24 @@ a {
     height: 1000px;
     background: var(--background);
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    vertical-align: top;
 }
 
 #work {
     height: fit-content;
     background: var(--background);
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    vertical-align: top;
 }
 
 #contact {
     height: 1000px;
     background: var(--background);
     display: inline-block;
-    width: 100%;
+    width: 100vw;
+    vertical-align: top;
 }
 h1 {
     margin: 100px;
@@ -68,6 +71,7 @@ h1 {
 }
 
 #about-me-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,3 +155,37 @@ h1 {
 .worktitle {
     margin-left: 15px;
 }
+
+@media (max-width: 500px) {
+    /* Adjustments for screens smaller than 500px */
+    body {
+      font-size: 14px; /* Decrease font size for readability on small screens */
+    }
+  
+    /* Adjustments for the navigation menu */
+    nav ul {
+      flex-direction: column; /* Stack the menu items vertically */
+    }
+  
+    /* Adjustments for the about section */
+    #about-me-container {
+      grid-template-columns: 1fr; /* Display the profile picture and content in a single column */
+    }
+  
+    /* Adjustments for the work section */
+    .workcontainer {
+      grid-template-columns: 1fr; /* Display the work content in a single column */
+    }
+
+    .imagecontainer {
+        grid-template-columns: 1fr; /* Display a single column */
+        grid-template-rows: auto; /* Reset the rows to auto */
+        gap: 10px; /* Adjust the gap between images */
+      }
+
+    .workimage {
+        width: 100%; /* Set the width of images to 100% of their container */
+        height: auto; /* Allow the height to adjust proportionally */
+      }
+    
+  }
