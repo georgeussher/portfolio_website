@@ -156,8 +156,8 @@ h1 {
     margin-left: 15px;
 }
 
-@media (max-width: 500px) {
-    /* Adjustments for screens smaller than 500px */
+@media (max-width: 600px) {
+    /* Adjustments for screens smaller than 600px */
     body {
       font-size: 14px; /* Decrease font size for readability on small screens */
     }
