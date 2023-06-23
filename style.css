@@ -156,6 +156,8 @@ h1 {
     margin-left: 15px;
 }
 
+
+/* Responsiveness */
 @media (max-width: 600px) {
     /* Adjustments for screens smaller than 600px */
     body {
