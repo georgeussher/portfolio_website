@@ -19,5 +19,5 @@ project like this is unecessary.
 - add color to menu bar 
 - add color div down the side of page
 - about me structure and database
-- deploy with Vercel/Netlify
+- deploy with Vercel/Netlify ✅
 
