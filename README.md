@@ -12,7 +12,7 @@ project like this is unecessary.
 - HTML
 - CSS
 - Javascript
-- Vercel/Netlify
+- Netlify
 
 📋TODO:
 - add menu navigation indicator
