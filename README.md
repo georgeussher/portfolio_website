@@ -20,4 +20,4 @@ project like this is unecessary.
 - add color div down the side of page
 - about me structure and database
 - deploy with Vercel/Netlify ✅
-
+- browser thumbnail
