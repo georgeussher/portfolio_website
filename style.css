@@ -15,7 +15,7 @@ body {
 
 nav {
     /* use flexbox to create another div in the navbar and give it another color */
-    /* width: 100vw; */
+    width: 100%;
     background: var(--background);
     overflow: hidden;
     position: fixed;
@@ -210,5 +210,5 @@ h1 {
     #profile-picture {
         margin-top: 124px;
     }
-    
+
   }
