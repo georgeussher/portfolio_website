@@ -77,6 +77,8 @@ h1 {
     align-items: center;
 }
 
+
+
 #profile-picture {
     width: 200px;
     height: 200px;
@@ -89,12 +91,14 @@ h1 {
     padding:20px;
     /* padding-top: 200px; */
     font-size: 50px;
+    text-align: center;
 }
 
 #role {
     margin: 0;
     padding: 20px;
     font-size: 22px;
+    text-align: center;
 }
 
 #description {
@@ -166,13 +170,22 @@ h1 {
   
     /* Adjustments for the navigation menu */
     nav ul {
-      flex-direction: column; /* Stack the menu items vertically */
+      flex-direction: column; /* Stack the menu items vertically */ 
     }
-  
+
     /* Adjustments for the about section */
     #about-me-container {
       grid-template-columns: 1fr; /* Display the profile picture and content in a single column */
     }
+
+    #name {
+        font-size: 40px;
+    }
+
+    #description {
+        width: 80%;
+    }
+
   
     /* Adjustments for the work section */
     .workcontainer {
@@ -189,5 +202,13 @@ h1 {
         width: 100%; /* Set the width of images to 100% of their container */
         height: auto; /* Allow the height to adjust proportionally */
       }
+    
+  }
+
+  @media (max-width: 330px) {
+
+    #profile-picture {
+        margin-top: 124px;
+    }
     
   }
