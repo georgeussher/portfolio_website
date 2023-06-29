@@ -1,4 +1,5 @@
 # portfolio_website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/02c7c6bd-d99f-47ee-9758-26a8b738283a/deploy-status)](https://app.netlify.com/sites/georgeussherportfolio/deploys)
 
 ❗WIP❗
 
@@ -11,12 +12,12 @@ project like this is unecessary.
 - HTML
 - CSS
 - Javascript
-- Vercel/Netlify
+- Netlify
 
 📋TODO:
 - add menu navigation indicator
 - add color to menu bar 
 - add color div down the side of page
 - about me structure and database
-- deploy with Vercel/Netlify
-
+- deploy with Vercel/Netlify ✅
+- browser thumbnail
