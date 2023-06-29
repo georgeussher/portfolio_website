@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier Prime', monospace;
+    background: var(--background);
 }
 
 nav {
@@ -43,15 +44,15 @@ a {
 
 #about {
     height: 1000px;
-    background: var(--background);
+    margin-left: 10px 0px 10px 0px;
     display: inline-block;
     width: 100%;
     vertical-align: top;
 }
 
 #work {
+    margin-left: 10px 0px 10px 0px;
     height: fit-content;
-    background: var(--background);
     display: inline-block;
     width: 100%;
     vertical-align: top;
@@ -59,7 +60,6 @@ a {
 
 #contact {
     height: 1000px;
-    background: var(--background);
     display: inline-block;
     width:100%;
     vertical-align: top;
@@ -111,7 +111,7 @@ h1 {
 
 .sectiontitle {
     margin-top: 100px;
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 #contact-title {
@@ -134,6 +134,8 @@ h1 {
 .work-description {
     width: 300px;
     align-self: flex-start;
+    margin: 0px 10px 0px 10px;
+    
 }
 
 .workimage {
@@ -148,16 +150,18 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .link {
     padding: 0px;
     width: 200px;
     color: green;
+    text-align: left;
 }
 
 .worktitle {
-    margin-left: 15px;
+    margin-left: 55px;
 }
 
 
@@ -186,10 +190,19 @@ h1 {
         width: 80%;
     }
 
-  
+    #work {
+        /* width: 100%; */
+        margin: 10px 0px 10px 0px
+    }
+    
+    .work-description {
+        margin-left: 15px;
+    }
+
     /* Adjustments for the work section */
     .workcontainer {
       grid-template-columns: 1fr; /* Display the work content in a single column */
+      margin-left: 10px;
     }
 
     .imagecontainer {
