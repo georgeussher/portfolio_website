@@ -148,7 +148,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    margin: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 10px;
 }
 
 .link {
