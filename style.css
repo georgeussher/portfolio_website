@@ -129,10 +129,12 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin: 0px 0px 0px 0px;
+    
 }
 
 .work-description {
-    width: 300px;
+    width: 400px;
     align-self: flex-start;
     margin: 0px 10px 0px 10px;
     
@@ -150,7 +152,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 .link {
@@ -161,7 +163,7 @@ h1 {
 }
 
 .worktitle {
-    margin-left: 55px;
+    font-weight: bold;
 }
 
 
