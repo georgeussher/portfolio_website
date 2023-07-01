@@ -220,6 +220,10 @@ h1 {
         height: auto; /* Allow the height to adjust proportionally */
       }
     
+    nav {
+        background-image: url("navbarmobile.png");
+    }
+    
   }
 
   @media (max-width: 330px) {
