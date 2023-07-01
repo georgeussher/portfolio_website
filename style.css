@@ -239,7 +239,17 @@ h1 {
   }
 
   @media (max-width: 1000px) {
+
     nav {
         background-image: url("navbarmobile.png");
+    }
+
+    #work {
+        /* width: 100%; */
+        margin: 10px 0px 10px 0px
+    }
+    
+    .work-description {
+        margin-left: 15px;
     }
   }
