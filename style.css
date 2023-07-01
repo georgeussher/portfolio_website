@@ -21,7 +21,8 @@ body {
 nav {
     /* use flexbox to create another div in the navbar and give it another color */
     width: 100%;
-    background: var(--background);
+    background-image: url("navbar.png");
+    background-size: 100%;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -35,6 +36,7 @@ ul {
 li {
     float: left;
 }
+
 a {
     padding: 20px;
     width: 100%;
@@ -45,6 +47,9 @@ a {
     font-weight: bold;
     color: black;
 }
+
+
+
 
 #about {
     height: 1000px;
