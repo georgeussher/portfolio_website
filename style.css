@@ -220,9 +220,9 @@ h1 {
         height: auto; /* Allow the height to adjust proportionally */
       }
     
-    nav {
+    /* nav {
         background-image: url("navbarmobile.png");
-    }
+    } */
     
   }
 
@@ -230,6 +230,10 @@ h1 {
 
     #profile-picture {
         margin-top: 124px;
+    }
+
+    nav {
+        background-image: url("navbarmobile.png");
     }
 
   }
