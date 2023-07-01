@@ -13,7 +13,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier Prime', monospace;
-    background: var(--background);
+    background-image: url("background.png");
+    background-size: 100%;
+    background-repeat: repeat-y;
 }
 
 nav {
