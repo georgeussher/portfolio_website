@@ -220,9 +220,9 @@ h1 {
         height: auto; /* Allow the height to adjust proportionally */
       }
     
-    /* nav {
+    nav {
         background-image: url("navbarmobile.png");
-    } */
+    }
     
   }
 
@@ -232,24 +232,5 @@ h1 {
         margin-top: 124px;
     }
 
-    /* nav {
-        background-image: url("navbarmobile.png");
-    } */
-
   }
 
-  @media (max-width: 1000px) {
-
-    nav {
-        background-image: url("navbarmobile.png");
-    }
-
-    #work {
-        /* width: 100%; */
-        margin: 10px 0px 10px 0px
-    }
-    
-    .work-description {
-        margin-left: 15px;
-    }
-  }
