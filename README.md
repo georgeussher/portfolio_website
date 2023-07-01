@@ -16,8 +16,8 @@ project like this is unecessary.
 
 📋TODO:
 - add menu navigation indicator
-- add color to menu bar 
-- add color div down the side of page
+- add color to menu bar ✅
+- add color div down the side of page ✅
 - about me structure and database
 - deploy with Vercel/Netlify ✅
 - browser thumbnail
