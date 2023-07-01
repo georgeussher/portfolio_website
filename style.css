@@ -170,7 +170,7 @@ h1 {
 
 
 /* Responsiveness */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     /* Adjustments for screens smaller than 600px */
     body {
       font-size: 14px; /* Decrease font size for readability on small screens */
