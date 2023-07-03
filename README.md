@@ -21,3 +21,4 @@ project like this is unecessary.
 - about me structure and database
 - deploy with Vercel/Netlify ✅
 - favicon
+- create custom LinkedIn SDK
