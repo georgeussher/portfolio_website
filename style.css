@@ -68,7 +68,7 @@ a {
 }
 
 #contact {
-    height: 550px;
+    height: 100px;
     display: inline-block;
     width:100%;
     vertical-align: top;
@@ -174,14 +174,18 @@ h1 {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin: 200px 0px 0px 0px;
-    border: 3px solid black;
+    /* margin-top: 200px; */
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    /* margin: 200px 0px 0px 0px; */
+    /* border: 3px solid black; */
 }
 
 .contactcontent {
     display: flex;
-    flex-direction: column;
-    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .contacttypes {
@@ -193,14 +197,14 @@ h1 {
 }
 
 .contact-details {
-    margin: 15px 0px 15px 0px;
+    font-size: 18px;
 }
 
 .contacticons{
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 
@@ -213,15 +217,20 @@ a {
 }
 
 #linkedin {
-    width: 70px;
+    width: 30px;
+    margin: 0px;
+    padding: 0px 50px 0px 0px;
+}
+
+#github {
+    width: 30px;
     margin: 0px;
     padding: 0px;
 }
 
-#github {
-    width: 50px;
-    margin: 0px;
-    padding: 0px;
+.linkedingithub {
+    width: 60px;
+    height: 60px;
 }
 
 /* Responsiveness */
