@@ -18,7 +18,6 @@ project like this is unecessary.
 - add menu navigation indicator
 - add color to menu bar ✅
 - add color div down the side of page ✅
-- about me structure and database
 - deploy with Vercel/Netlify ✅
 - favicon
-- create custom LinkedIn SDK
+- make contacts area responsive
