@@ -21,3 +21,4 @@ project like this is unecessary.
 - deploy with Vercel/Netlify ✅
 - favicon
 - make contacts area responsive
+- mailto functionality
