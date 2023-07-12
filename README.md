@@ -22,3 +22,4 @@ project like this is unecessary.
 - favicon
 - make contacts area responsive
 - mailto functionality
+- add real content to 'my work' section
