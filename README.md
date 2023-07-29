@@ -19,7 +19,7 @@ project like this is unecessary.
 - add color to menu bar ✅
 - add color div down the side of page ✅
 - deploy with Vercel/Netlify ✅
-- favicon
+- favicon ✅
 - make contacts area responsive
-- mailto functionality
-- add real content to 'my work' section
+- mailto functionality ✅
+- add real content to 'my work' section ✅
